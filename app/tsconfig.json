@@ -1,0 +1,24 @@
+{
+  "files": [],
+  "references": [
+    {
+      "path": "./tsconfig.app.json"
+    },
+    {
+      "path": "./tsconfig.node.json"
+    }
+  ],
+  "compilerOptions": {
+    "paths": {
+      "@/*": [
+        "./src/*"
+      ],
+      "@unifyapps/app-builder-sdk": [
+        "./src/@unifyapps/app-builder-sdk/index.d.ts"
+      ],
+      "@unifyapps/app-builder-sdk/*": [
+        "./src/@unifyapps/app-builder-sdk/*"
+      ]
+    }
+  }
+}
