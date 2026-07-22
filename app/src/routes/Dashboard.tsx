@@ -193,8 +193,8 @@ export default function Dashboard() {
               <YAxis tick={{ fontSize: 11, fill: 'var(--muted-foreground)' }} tickLine={false} axisLine={false} allowDecimals={false} width={32} />
               <Tooltip {...tooltipStyle()} />
               <Legend wrapperStyle={{ fontSize: '0.75rem' }} />
-              <Line type="monotone" dataKey="created" name="Created" stroke="var(--chart-1)" strokeWidth={2} dot={false} />
-              <Line type="monotone" dataKey="resolved" name="Resolved" stroke="var(--chart-5)" strokeWidth={2} dot={false} />
+              <Line type="monotone" dataKey="created" name="Created" stroke="var(--chart-5)" strokeWidth={2} dot={false} />
+              <Line type="monotone" dataKey="resolved" name="Resolved" stroke="var(--destructive)" strokeWidth={2} dot={false} />
             </LineChart>
           </ResponsiveContainer>
         </div>
