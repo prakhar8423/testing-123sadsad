@@ -77,8 +77,8 @@ function StatCard({
       onClick={onClick}
       className="group flex flex-col gap-2 rounded-md border border-border bg-card p-5 text-left transition-colors hover:border-primary/40"
     >
-      <div className="flex items-center justify-between">
-        <span className="text-sm text-muted-foreground">{label}</span>
+      <div className="flex items-center justify-between gap-3">
+        <p className="text-sm text-muted-foreground">{label}</p>
         <Icon className={danger ? 'size-4 text-destructive' : 'size-4 text-muted-foreground'} />
       </div>
       <span
