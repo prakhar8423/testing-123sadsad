@@ -23,7 +23,7 @@ const SCOPES: { key: QueueScope; label: string }[] = [
   { key: 'all', label: 'All' },
   { key: 'mine', label: 'My tickets' },
   { key: 'unassigned', label: 'Unassigned' },
-  { key: 'at_risk', label: 'SLA at risk' },
+  { key: 'at_risk', label: 'SLA' },
 ]
 
 export function QueueFilters() {

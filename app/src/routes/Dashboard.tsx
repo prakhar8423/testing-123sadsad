@@ -237,7 +237,7 @@ export default function Dashboard() {
 
         <div className="rounded-md border border-border bg-card p-5">
           <div className="mb-3 flex items-center justify-between">
-            <h2 className="font-heading text-base font-semibold">SLA at risk</h2>
+            <h2 className="font-heading text-base font-semibold">SLA</h2>
             <Button variant="ghost" size="sm" onClick={() => goScope('at_risk')}>
               View all
             </Button>
