@@ -10,6 +10,7 @@ import {
   Search,
   ShoppingBag,
   Ticket as TicketIcon,
+  Trophy,
 } from 'lucide-react'
 import { cn } from '@/lib/utils'
 import { Button } from '@/components/ui/button'
@@ -27,6 +28,7 @@ const NAV = [
   { to: '/catalog', label: 'Service catalog', icon: ShoppingBag, end: false },
   { to: '/kb', label: 'Knowledge base', icon: BookOpen, end: false },
   { to: '/reports', label: 'Reports', icon: LifeBuoy, end: false },
+  { to: '/top-performers', label: 'Top performers', icon: Trophy, end: false },
 ] as const
 
 export function AppShell({ children }: { children: React.ReactNode }) {

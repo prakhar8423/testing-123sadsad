@@ -10,6 +10,7 @@ import Catalog from '@/routes/Catalog'
 import KnowledgeBase from '@/routes/KnowledgeBase'
 import Article from '@/routes/Article'
 import Reports from '@/routes/Reports'
+import TopPerformers from '@/routes/TopPerformers'
 
 // BrowserRouter (clean URLs, no #). The mount path is never hardcoded here — the engine
 // bakes it in as Vite's `base` (VITE_APP_BASE, see vite.config.ts) and the app reads it
@@ -38,6 +39,7 @@ export default function App() {
                 <Route path="/kb" element={<KnowledgeBase />} />
                 <Route path="/kb/:id" element={<Article />} />
                 <Route path="/reports" element={<Reports />} />
+                <Route path="/top-performers" element={<TopPerformers />} />
               </Routes>
             </AppShell>
           }
